@@ -5,11 +5,11 @@ import com.google.gson.annotations.SerializedName;
 import java.io.Serializable;
 
 public class Category implements Serializable {
-    @SerializedName("categoryId")
+    @SerializedName("id")
     private int id;
-    @SerializedName("categoryName")
+    @SerializedName("name")
     private String name;
-    @SerializedName("icon")
+    @SerializedName("images")
     private String images;
     @SerializedName("description")
     private String description;
